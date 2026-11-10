@@ -1,4 +1,4 @@
-# globalping-io
+# Globalping
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-globalping-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://globalping.io/
+Globalping provides a platform for running network diagnostics such as ping, traceroute, DNS resolve, HTTP requests and MTR from a globally distributed network of probes. It offers a free REST API, CLI, and integrations with Slack, Discord, Zapier and other tools for developers and operators to monitor latency, debug routing issues and benchmark CDN or DNS providers. The service is open source and supported by the jsDelivr team and community sponsors.
+
+**Areas:** Company · Network · Monitoring · OpenSource · API · Free
+
+## Globalping on APIs.io
+
+Everything profiled for Globalping is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/globalping-io/](https://apis.io/providers/globalping-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Globalping Limits API](https://apis.io/apis/globalping-io/globalping-io-limits-api/) — Inspect the current user's or IP address's rate limits and credits.
+- [Globalping Measurements API](https://apis.io/apis/globalping-io/globalping-io-measurements-api/) — Create network measurements and retrieve their results.
+- [Globalping Probes API](https://apis.io/apis/globalping-io/globalping-io-probes-api/) — Discover the probes currently available for measurements.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Globalping Agentic Access](https://apis.io/agentic-access/globalping-io/globalping-io-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [MeasurementRequest](https://apis.io/schemas/globalping-io/globalping-io-measurement-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Globalping Io Context](https://apis.io/jsonld/globalping-io/globalping-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Globalping API Rules](https://apis.io/rules/globalping-io/globalping-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Globalping Authentication](https://apis.io/security/globalping-io/globalping-io-authentication/)
+- [Globalping Domain Security](https://apis.io/security/globalping-io/globalping-io-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Globalping Scopes](https://apis.io/scopes/globalping-io/globalping-io-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://globalping.io/)
+- [API reference](https://globalping.io/docs/api.globalping.io)
+- [Blog](https://blog.globalping.io)
+- [Terms of service](https://globalping.io/terms)
+- [GitHub](https://github.com/globalping)
+- [Status](https://status.globalping.io/)
+
+## API Evangelist rating
+
+**Kin Score 46.4** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 41.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/globalping-io/](https://apis.io/providers/globalping-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Globalping: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/globalping-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
